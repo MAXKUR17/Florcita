@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ERES LA MUJER MAS HERMOSA FLOR♥</title>
+  <style>
+    .body {
+      background-color: crimson;
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ ERES LA MUJER MAS HERMOSA FLOR ♥</h1>
+  <img src="https://i.pinimg.com/originals/d8/e2/30/d8e230c8ad16df34dd8745e9278edd82.gif" alt="Cuanto te quiero" class="body__img" />
+  <br>
+  <button id="yes">TE QUIERO MUCHO</button>
+  <button id="no">TE ADORO TANTO</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const María = () => {
+      alert('ERES MUY IMPORTANTE PARA MI');
+      alert('TU OJOS SON UN DELEITE');
+      location.href = 'https://www.youtube.com/watch?v=0rDH_2M5JHU';
+    };
+
+    const Florcita = () => {
+      alert('TE EXTRAÑO');
+      alert('ME ENCANTAS DESDE QUE TE VI POR PRIMERA VEZ');
+      location.href = 'https://www.youtube.com/watch?v=66TqobKpZzk';
+    };
+
+    vuttonSi.addEventListener('click', María);
+    vuttonNo.addEventListener('mouseover', Florcita);
+  </script>
+</body>
+
+</html>
